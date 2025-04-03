@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tan Town Newsletter
+        </title>
+        <link rel="stylesheet" href="stylesheet.css" >
+        <script>
+            function emailsubmit() {
+                alert("Thanks for giving us your personal information! We definitely won't sell it.. maybe")
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="containerihardlyknowher">
+            <nav>
+                <a class="tab" id="title" href="index.html">Tan Town Newsletter</a>
+                <a class="tab" id="page2" href="page2.html">About Us</a>
+                <a class="tab" id="page3" href="page3.html">Newsletter</a>
+                <a class="tab" id="page4" style="background-color:#93b792; box-shadow:none; z-index: 2;">Subscribe</a>
+            </nav>
+            <div class="main" style="background-color:#93b792; height: 900px;">
+    
+                    <div class="content1" style="width: 500px;text-align: center;">
+                        <img class="tape" id="tape1" src="images/tape_1.PNG" width="200px"/>
+                        <img class="tape" id="tape2" src="images/tape_2.png" width="200px" style="left: 460px;"/>
+                        
+                        <h3>Don't miss any of our future newsletters! Subscribe today.</h3>
+                    </div>
+
+                    <div class="content2" style="margin-top: 480px">
+                        <img class="tape" id="tape1" src="images/tape_1.PNG" width="200px"/>
+                        <img class="tape" id="tape2" src="images/tape_2.png" width="200px" style="left: 1020px;"/>
+                        <form>
+                            <fieldset>
+                                <legend><h3>Sign up here to get an email containing our new weekly stories:</h3></legend>
+                                <input type="text" name="email" placeholder="email@site.com" style="font-size: 100%;"/>
+                                <br><br>
+                                <button onclick="emailsubmit()">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
